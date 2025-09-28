@@ -9,9 +9,13 @@ git clone github.com:Neelima202515/Westpac--assessment.git
 
 
 `
-npx cucumber-js --require tests/steps/**/*.js --format json:reports/cucumber-report.json
+npx cucumber-js --require steps/**/*.ts --format json:reports/cucumber-report.json
 `
 
 `
 node report.js
 `
+
+Sample report screenshot:
+
+![alt text](image-1.png)
